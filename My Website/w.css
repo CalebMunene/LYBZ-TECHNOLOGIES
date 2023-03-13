@@ -1,0 +1,59 @@
+body{
+    font-size: 20px;
+    color:rgb(14, 14, 14);
+    background-color:white;
+    font-family: unset;
+}
+ul{
+    list-style:none;
+    font-size: 25px;
+    padding: 0%;
+    background-color: red;
+    position: fixed;
+    height: 101%;
+    width: 20%;
+    overflow: auto;
+    margin:-1%;
+}
+li a{
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: black;
+}
+.active{
+    background-color: black;
+}
+#header{
+    margin-left: 20%;
+    padding: 1px 16px;
+}
+.page{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: -100vw;
+    overflow: auto;
+    z-index: 0;
+    background-color:white;
+}
+#star{
+    position: sticky;
+    top:0%;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#list{
+    position: sticky;
+    top:0%;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
